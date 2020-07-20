@@ -1,0 +1,12 @@
+ubuntu@ip-172-31-47-169:~$ vim Hello.py
+ubuntu@ip-172-31-47-169:~$ wc -l Hello.py
+1 Hello.py
+ubuntu@ip-172-31-47-169:~$ vim second.py
+ubuntu@ip-172-31-47-169:~$ cat Hello.py second.py > third.py
+ubuntu@ip-172-31-47-169:~$ ls
+Hello.py  lines.txt       lines_out.txt  text_copy.txt
+cp.txt    lines_copy.txt  second.py      third.py
+ubuntu@ip-172-31-47-169:~$ cat third.py
+print("Hello, world!")
+print ("Linear regression")
+
